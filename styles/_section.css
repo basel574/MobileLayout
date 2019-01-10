@@ -1,0 +1,45 @@
+/*Row height*/
+.image img, .message, .section {
+    height: 28vh;
+    box-sizing: border-box;
+}
+/*Horizontal flex-container*/
+.section {
+    display: flex;
+    align-items: flex-start;
+    background-color: #dadada;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+    margin: 1rem 0;
+}
+/*Vertical flex-container*/
+.message {
+    flex: 1;
+    text-indent: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+}
+/*Post header*/
+.message_header h3 {
+    font: bold 1.2rem/1.2 Times, serif;
+    margin: 0.2rem 0;
+    color: #000;
+}
+/*Post body*/
+.message_text {
+    flex: 1;
+    overflow: hidden;
+}
+/*Post bosy text*/
+.message_text p {
+    margin: 0;
+    color: #000;
+    font-family: sans-serif;
+}
+/*Post info and controls*/
+.message_info {
+    height: 1.2rem;
+    width: 100%;
+    margin-top: 10px;
+}
